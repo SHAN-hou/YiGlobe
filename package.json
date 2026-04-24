@@ -1,0 +1,35 @@
+{
+  "name": "yiglobe",
+  "version": "1.0.0",
+  "description": "八卦星云图 (YiGlobe) - 3D易经六十四卦可视化手机APP",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Static web app - no build needed'",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios",
+    "cap:run:android": "npx cap run android",
+    "cap:run:ios": "npx cap run ios"
+  },
+  "keywords": [
+    "yijing",
+    "iching",
+    "3d",
+    "threejs",
+    "capacitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "@capacitor/ios": "^8.3.1",
+    "@capacitor/splash-screen": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Capacitor native builds
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/capacitor-cordova-android-plugins/build/
+ios/App/Pods/
+ios/DerivedData/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
